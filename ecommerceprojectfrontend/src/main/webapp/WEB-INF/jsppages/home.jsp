@@ -38,13 +38,16 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="<c:url value='/resources/images/sh.jpg'></c:url>" alt="Banner1" style="width:100%;">
+        <img src="<c:url value='/resources/images/sh.jpg'></c:url>" alt="Banner1" style="width:100%;"
+         onclick="window.open('http://localhost:8086/ecommerceprojectfrontend/all/searchByCategory?searchCondition=Footwear', '_self');">
       </div>
       <div class="item">
-        <img src="<c:url value='/resources/images/c1.jpg'></c:url>" alt="Banner2" style="width:100%;">
+        <img src="<c:url value='/resources/images/c1.jpg'></c:url>" alt="Banner2" style="width:100%;"
+        onclick="window.open('http://localhost:8086/ecommerceprojectfrontend/all/searchByCategory?searchCondition=Cloths', '_self');">
       </div>
        <div class="item">
-        <img src="<c:url value='/resources/images/s1.jpg'></c:url>" alt="Banner3" style="width:100%;">
+        <img src="<c:url value='/resources/images/s1.jpg'></c:url>" alt="Banner3" style="width:100%;"
+        onclick="window.open('http://localhost:8086/ecommerceprojectfrontend/all/searchByCategory?searchCondition=Cloths', '_self');">
       </div>
        <div class="item">
         <img src="<c:url value='/resources/images/s2.jpg'></c:url>" alt="Banner4" style="width:100%;">
@@ -97,7 +100,8 @@
 <div class="flip-box">
   <div class="flip-box-inner">
     <div class="flip-box-front">
-      <img src="<c:url value='/resources/images/i3.jpg'></c:url>" alt="Offer3" style="width:300px;height:200px">
+      <img src="<c:url value='/resources/images/i3.jpg'></c:url>" alt="Offer3" style="width:300px;height:200px"
+      onclick="window.open('http://localhost:8086/ecommerceprojectfrontend/all/searchByCategory?searchCondition=Cloths', '_self');">
     </div>
     <div class="flip-box-back">
       <h2>First Time</h2>
@@ -116,7 +120,8 @@
 <img alt="Today Offer" src="<c:url value='/resources/images/fa.jpg'></c:url>" width=100%>
 <hr>
 <br>
- <img alt="Today Offer" src="<c:url value='/resources/images/bigimg.PNG'></c:url>" width=100%>
+ <img alt="Today Offer" src="<c:url value='/resources/images/bigimg.PNG'></c:url>" width=100%
+ onclick="window.open('http://localhost:8086/ecommerceprojectfrontend/all/searchByCategory?searchCondition=Furniture', '_self');">
 <hr>
 
 
